@@ -10,7 +10,7 @@ This Terraform lab demonstrates the automated creation and configuration of a mu
 This template can be deployed to create and configure the VPC in an automated and repeatable manner. Here's a step-by-step guide to creating an AWS VPC Infrastructure using Terraform.
 
 <h3 align="left">#Terraform Authentication for AWS provider</h3>
-(This enables terraform plugins to connect to AWS provider)
+This enables terraform plugins to connect to AWS provider
 
 ![Image00](https://github.com/user-attachments/assets/885356ff-c37e-42a5-8bde-f3703ffdb510)
 
