@@ -23,7 +23,7 @@ resource "digitalocean_ssh_key" "Web" {
 
 # Create a new Web Droplet, Add SSH Public Key and Bash Script
 resource "digitalocean_droplet" "LinuxWebserver" {
-  image     = "ubuntu-20-04-x64"
+  image     = "ubuntu-22-04-x64"
   name      = "WebServer"
   region    = "SGP1"
   size      = "s-1vcpu-1gb"
